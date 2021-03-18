@@ -4,27 +4,27 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.attiny1627-using-matrix-keypad-with-avr-devices-mplab-mcc",
-        "version": "",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Using Matrix Keypad With AVR Devices",
         "projectName": "attiny1627-using-matrix-keypad-with-avr-devices-mplab-mcc",
-        "shortDescription": "",
+        "shortDescription": "This application demo shows how a general keypad application can be implemented with tinyAVR® and megaAVR® devices with advanced features to make the application more efficient and use less power.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ""
+            "semverRange": ">=5.45.0"
         },
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": ""
+				"semverRange": "^2.31.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "ATtiny_DFP",
+            "semverRange": "^2.6.122"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=4.1.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,16 +32,28 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "ATtiny1627",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
+            ["Peripherals","PORT"],
+            ["Peripherals","RTC"],
+            ["Peripherals","PIT"],
+            ["Peripherals","SLPCTRL"]
         ],
         "peripherals": [
+            "PORT",
+            "RTC",
+            "PIT",
+            "SLPCTRL"
         ],
         "keywords": [
+            "Melody",
+            "Low Power",
+            "User Interface",
+            "Matrix Keypad"
         ],
 		"additionalData": {
 			"longDescription": {
