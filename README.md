@@ -17,7 +17,7 @@ The example in this application note may easily be changed to interface a smalle
 - MPLAB® X IDE 5.45 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
 - MPLAB® XC8 2.31 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
 - MPLAB® Code Configurator (MCC) 4.1.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-- MPLAB® Code Configurator Library 1.37.13 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+- MPLAB® Melody Library **1.37.13** or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
 - ATtiny 2.6.122 or newer Device Pack
 
 ## Hardware Used
@@ -27,7 +27,6 @@ The example in this application note may easily be changed to interface a smalle
 * Two LEDs
 * Two resistors
 * Micro-USB cable (Type-A/Micro-B)
-
 ## Peripherals Configuration using MCC
 ### Added Peripherals
 ![Added Peripherals](images/peripherals_used.PNG "CAdded Peripherals")
@@ -68,4 +67,4 @@ The example in this application note may easily be changed to interface a smalle
 * The pin-code “123ABC” is programmed to be the passcode. Try pressing this code followed by pound (#) to observe the green LED flashing. Try a different code to observe the red LED flashing.
 
 ## Summary
-This example has shown one way of implementing a matrix keypad with an AVR® microcontroller.
+This example has shown a ways of implementing a matrix keypad with an AVR® microcontroller.
