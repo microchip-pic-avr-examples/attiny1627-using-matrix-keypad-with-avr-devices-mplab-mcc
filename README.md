@@ -14,10 +14,10 @@ The example in this application note may easily be changed to interface a smalle
 
 ## Software Used
 
-- MPLAB® X IDE **5.45** or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-- MPLAB® XC8 **2.31** or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-- MPLAB® Code Configurator (MCC) **4.1.0** or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-- MPLAB® Melody Library **1.37.13** or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+- [MPLAB® X IDE](http://www.microchip.com/mplab/mplab-x-ide) **5.45** or newer 
+- [MPLAB® XC8](http://www.microchip.com/mplab/compilers) **2.31** or a newer compiler 
+- [MPLAB® Code Configurator (MCC)](https://www.microchip.com/mplab/mplab-code-configurator) **4.1.0** or newer 
+- [MPLAB® Melody Library](https://www.microchip.com/mplab/mplab-code-configurator) **1.37.13** or newer 
 - ATtiny **2.6.122** or newer Device Pack
 
 ## Hardware Used
@@ -66,5 +66,5 @@ The example in this application note may easily be changed to interface a smalle
 * Program the project to the board: right click on the project and click *Make and Program Device*.
 * The pin-code “123ABC” is programmed to be the passcode. Try pressing this code followed by pound (#) to observe the green LED flashing. Try a different code to observe the red LED flashing.
 
-## Summary
+## Conclusion
 This example has shown a ways of implementing a matrix keypad with an AVR® microcontroller.
